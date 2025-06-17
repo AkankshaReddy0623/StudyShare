@@ -12,7 +12,7 @@ export default function PresentationCard({ presentation }: PresentationCardProps
   const handleDownload = async () => {
     try {
       setIsDownloading(true);
-      const response = await fetch(`/src/materials/${presentation.fileName}`);
+      const response = await fetch(`/materials/${presentation.fileName}`);
       const blob = await response.blob();
       const url = window.URL.createObjectURL(blob);
       const a = document.createElement('a');

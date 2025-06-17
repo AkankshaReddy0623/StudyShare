@@ -71,9 +71,9 @@ export const presentations: Presentation[] = [
     subjectCode: '9FC04',
     uploadedBy: 'Aravind Pulluri',
     uploadDate: '2024-03-19',
-    fileSize: '2.1 MB',
+    fileSize: '1.0 MB',
     description: 'Database Management Systems Unit 1',
-    fileName: 'UNIT-1 DBMS - Copy.pptx'
+    fileName: 'Unit-IV DBMS.ppt'
   },
   {
     id: '5',
@@ -82,9 +82,9 @@ export const presentations: Presentation[] = [
     subjectCode: '9FC04',
     uploadedBy: 'Aravind Pulluri',
     uploadDate: '2024-03-19',
-    fileSize: '1.8 MB',
+    fileSize: '935 KB',
     description: 'Database Management Systems Unit 2',
-    fileName: 'UNIT-2 DBMS - Copy.pptx'
+    fileName: 'Unit-V DBMS.ppt'
   },
   {
     id: '6',
@@ -93,9 +93,9 @@ export const presentations: Presentation[] = [
     subjectCode: '9FC04',
     uploadedBy: 'Aravind Pulluri',
     uploadDate: '2024-03-19',
-    fileSize: '2.3 MB',
+    fileSize: '867 KB',
     description: 'Database Management Systems Unit 3',
-    fileName: 'UNIT-3 DBMS - Copy.pptx'
+    fileName: 'Unit-VI DBMS.ppt'
   },
   {
     id: '10',
