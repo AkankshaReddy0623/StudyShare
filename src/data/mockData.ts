@@ -36,6 +36,24 @@ export const subjects: Subject[] = [
     presentationCount: 3,
     description: 'Computer Organization and Microprocessors',
     subjectCode: '9CC54'
+  },
+  {
+    id: 'python-programming',
+    name: 'Python Programming',
+    icon: 'FileText',
+    color: 'from-yellow-500 to-yellow-600',
+    presentationCount: 3,
+    description: 'Introduction to Python Programming',
+    subjectCode: '9FC02'
+  },
+  {
+    id: 'business-economics-financial-analysis',
+    name: 'Business Economics & Financial Analysis',
+    icon: 'DollarSign',
+    color: 'from-orange-500 to-orange-600',
+    presentationCount: 4,
+    description: 'Business Economics and Financial Analysis',
+    subjectCode: '9ZC01'
   }
 ];
 
@@ -75,35 +93,35 @@ export const presentations: Presentation[] = [
   },
   {
     id: '4',
-    title: 'UNIT-1 DBMS',
+    title: 'UNIT-4 DBMS',
     subject: 'database-management',
     subjectCode: '9FC04',
     uploadedBy: 'Aravind Pulluri',
     uploadDate: '2024-03-19',
     fileSize: '1.0 MB',
-    description: 'Database Management Systems Unit 1',
+    description: 'Database Management Systems Unit 4',
     fileName: 'Unit-IV DBMS.ppt'
   },
   {
     id: '5',
-    title: 'UNIT-2 DBMS',
+    title: 'UNIT-5 DBMS',
     subject: 'database-management',
     subjectCode: '9FC04',
     uploadedBy: 'Aravind Pulluri',
     uploadDate: '2024-03-19',
     fileSize: '935 KB',
-    description: 'Database Management Systems Unit 2',
+    description: 'Database Management Systems Unit 5',
     fileName: 'Unit-V DBMS.ppt'
   },
   {
     id: '6',
-    title: 'UNIT-3 DBMS',
+    title: 'UNIT-6 DBMS',
     subject: 'database-management',
     subjectCode: '9FC04',
     uploadedBy: 'Aravind Pulluri',
     uploadDate: '2024-03-19',
     fileSize: '867 KB',
-    description: 'Database Management Systems Unit 3',
+    description: 'Database Management Systems Unit 6',
     fileName: 'Unit-VI DBMS.ppt'
   },
   {
@@ -119,40 +137,50 @@ export const presentations: Presentation[] = [
   },
   {
     id: '7',
-    title: 'UNIT-1 QALR',
+    title: 'UNIT-4 QALR',
     subject: 'qualitative-analysis',
     subjectCode: '9HC16',
     uploadedBy: 'Aravind Pulluri',
     uploadDate: '2024-03-19',
-    fileSize: '1.5 MB',
-    description: 'Qualitative Analysis Unit 1',
-    fileName: 'UNIT-1 QALR - Copy.pptx'
+    fileSize: '27MB',
+    description: 'Qualitative Analysis Unit 4',
+    fileName: 'Unit4 QALR.pptx'
   },
   {
     id: '8',
-    title: 'UNIT-2 QALR',
+    title: 'UNIT-5 QALR',
     subject: 'qualitative-analysis',
     subjectCode: '9HC16',
     uploadedBy: 'Aravind Pulluri',
     uploadDate: '2024-03-19',
-    fileSize: '1.7 MB',
-    description: 'Qualitative Analysis Unit 2',
-    fileName: 'UNIT-2 QALR - Copy.pptx'
+    fileSize: '20MB',
+    description: 'Qualitative Analysis Unit 5',
+    fileName: 'QALR Unit5 pptx.pptx'
   },
   {
     id: '9',
-    title: 'UNIT-3 QALR',
+    title: 'UNIT-6 QALR',
     subject: 'qualitative-analysis',
     subjectCode: '9HC16',
     uploadedBy: 'Aravind Pulluri',
     uploadDate: '2024-03-19',
-    fileSize: '1.9 MB',
-    description: 'Qualitative Analysis Unit 3',
-    fileName: 'UNIT-3 QALR - Copy.pptx'
-  }
-  ,
+    fileSize: '18MB',
+    description: 'Qualitative Analysis Unit 6',
+    fileName: 'QALR UNIT - 6 .pptx'
+  },
   {
     id: '11',
+    title: 'UNIT-3 CO & MPI',
+    subject: 'computer-organization-microprocessors',
+    subjectCode: '9CC54',
+    uploadedBy: 'Aravind Pulluri',
+    uploadDate: '2024-03-19',
+    fileSize: '4.0 MB',
+    description: 'Computer Organization and Microprocessors Unit 3',
+    fileName: 'Unit-3 co&mpi.ppt'
+  },
+  {
+    id: '12',
     title: 'UNIT-1 CO & MPI',
     subject: 'computer-organization-microprocessors',
     subjectCode: '9CC54',
@@ -163,7 +191,7 @@ export const presentations: Presentation[] = [
     fileName: 'Unit-1 co&mpi.ppt'
   },
   {
-    id: '12',
+    id: '13',
     title: 'UNIT-2 CO & MPI',
     subject: 'computer-organization-microprocessors',
     subjectCode: '9CC54',
@@ -172,15 +200,82 @@ export const presentations: Presentation[] = [
     fileSize: '3.8 MB',
     description: 'Computer Organization and Microprocessors Unit 2',
     fileName: 'Unit-2 co&mpi.ppt'
-  },{
-    id: '13',
-    title: 'UNIT-3 CO & MPI',
-    subject: 'computer-organization-microprocessors',
-    subjectCode: '9CC54',
+  },
+  {
+    id: '14',
+    title: 'UNIT-4 Python',
+    subject: 'python-programming',
+    subjectCode: '9FC02',
     uploadedBy: 'Aravind Pulluri',
     uploadDate: '2024-03-19',
-    fileSize: '4.0 MB',
-    description: 'Computer Organization and Microprocessors Unit 3',
-    fileName: 'Unit-3 co&mpi.ppt'
+    fileSize: '1.5 MB',
+    description: 'Python Programming Unit 4',
+    fileName: 'Python UNIT-IV.pptx'
+  },
+  {
+    id: '15',
+    title: 'UNIT-5 Python',
+    subject: 'python-programming',
+    subjectCode: '9FC02',
+    uploadedBy: 'Aravind Pulluri',
+    uploadDate: '2024-03-19',
+    fileSize: '1.3 MB',
+    description: 'Python Programming Unit 5',
+    fileName: 'Python UNIT-V.pptx'
+  },
+  {
+    id: '16',
+    title: 'UNIT-6 Python',
+    subject: 'python-programming',
+    subjectCode: '9FC02',
+    uploadedBy: 'Aravind Pulluri',
+    uploadDate: '2024-03-19',
+    fileSize: '1.6 MB',
+    description: 'Python Programming Unit 6',
+    fileName: 'Python UNIT-VI.pptx'
+  },
+  {
+    id: '17',
+    title: 'UNIT-4 BEFA',
+    subject: 'business-economics-financial-analysis',
+    subjectCode: '9ZC01',
+    uploadedBy: 'Aravind Pulluri',
+    uploadDate: '2024-03-19',
+    fileSize: '281KB',
+    description: 'Business Economics and Financial Analysis Unit 4',
+    fileName: 'UNIT IV BEFA.pdf'
+  },
+  {
+    id: '18',
+    title: 'UNIT-5 BEFA',
+    subject: 'business-economics-financial-analysis',
+    subjectCode: '9ZC01',
+    uploadedBy: 'Aravind Pulluri',
+    uploadDate: '2024-03-19',
+    fileSize: '735KB',
+    description: 'Business Economics and Financial Analysis Unit 5',
+    fileName: 'UNIT V BEFA.pdf'
+  },
+  {
+    id: '19',
+    title: 'UNIT-6 BEFA',
+    subject: 'business-economics-financial-analysis',
+    subjectCode: '9ZC01',
+    uploadedBy: 'Aravind Pulluri',
+    uploadDate: '2024-03-19',
+    fileSize: '176KB',
+    description: 'Business Economics and Financial Analysis Unit 6',
+    fileName: 'UNIT VI BEFA.pdf'
+  },
+  {
+    id: '20',
+    title: 'BEFA Unit 5 - Problems with Solutions',
+    subject: 'business-economics-financial-analysis',
+    subjectCode: '9ZC01',
+    uploadedBy: 'Aravind Pulluri',
+    uploadDate: '2024-03-19',
+    fileSize: '370KB',
+    description: 'BEFA Unit 5 Problems with Solutions',
+    fileName: 'BEFA- Unit - 5 Problems with Solutions.pdf'
   }
 ];
