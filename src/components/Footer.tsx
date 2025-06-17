@@ -18,7 +18,7 @@ export default function Footer() {
             <div className="flex items-center justify-center space-x-2 mb-4">
               <Code className="h-6 w-6 text-blue-400 animate-pulse" />
               <h3 className="text-2xl font-bold text-white bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                Created by Aravind
+                Created by Aravind Pulluri
               </h3>
               <Heart className="h-5 w-5 text-red-400 animate-pulse" />
             </div>
