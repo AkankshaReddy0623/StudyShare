@@ -27,6 +27,15 @@ export const subjects: Subject[] = [
     presentationCount: 3,
     description: 'Qualitative Analysis and Logical Reasoning',
     subjectCode: '9HC16'
+  },
+  {
+    id: 'computer-organization-microprocessors',
+    name: 'Computer Organization & Microprocessors',
+    icon: 'Microscope',
+    color: 'from-red-500 to-red-600',
+    presentationCount: 3,
+    description: 'Computer Organization and Microprocessors',
+    subjectCode: '9CC54'
   }
 ];
 
@@ -140,5 +149,38 @@ export const presentations: Presentation[] = [
     fileSize: '1.9 MB',
     description: 'Qualitative Analysis Unit 3',
     fileName: 'UNIT-3 QALR - Copy.pptx'
+  }
+  ,
+  {
+    id: '11',
+    title: 'UNIT-1 CO & MPI',
+    subject: 'computer-organization-microprocessors',
+    subjectCode: '9CC54',
+    uploadedBy: 'Aravind Pulluri',
+    uploadDate: '2024-03-19',
+    fileSize: '3.5 MB',
+    description: 'Computer Organization and Microprocessors Unit 1',
+    fileName: 'Unit-1 co&mpi.ppt'
+  },
+  {
+    id: '12',
+    title: 'UNIT-2 CO & MPI',
+    subject: 'computer-organization-microprocessors',
+    subjectCode: '9CC54',
+    uploadedBy: 'Aravind Pulluri',
+    uploadDate: '2024-03-19',
+    fileSize: '3.8 MB',
+    description: 'Computer Organization and Microprocessors Unit 2',
+    fileName: 'Unit-2 co&mpi.ppt'
+  },{
+    id: '13',
+    title: 'UNIT-3 CO & MPI',
+    subject: 'computer-organization-microprocessors',
+    subjectCode: '9CC54',
+    uploadedBy: 'Aravind Pulluri',
+    uploadDate: '2024-03-19',
+    fileSize: '4.0 MB',
+    description: 'Computer Organization and Microprocessors Unit 3',
+    fileName: 'Unit-3 co&mpi.ppt'
   }
 ];
