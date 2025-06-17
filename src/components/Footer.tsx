@@ -55,7 +55,7 @@ export default function Footer() {
           
           <div className="text-center pt-6 border-t border-white/10 w-full animate-fade-in" style={{ animationDelay: '0.4s' }}>
             <p className="text-white/40 text-sm flex items-center justify-center space-x-2">
-              <span>© 2024 StudyShare. Built with</span>
+              <span>© 2025 StudyShare. Built with</span>
               <Heart className="h-4 w-4 text-red-400 animate-pulse" />
               <span>for students.</span>
             </p>
