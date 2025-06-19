@@ -5,7 +5,7 @@ export default function Footer() {
   const [hoveredSocial, setHoveredSocial] = useState<string | null>(null);
 
   return (
-    <footer className="bg-white/5 backdrop-blur-sm border-t border-white/10 mt-16 relative overflow-hidden">
+    <footer className="w-full bg-white/5 backdrop-blur-sm border-t border-white/10 mt-16 relative overflow-hidden flex justify-center">
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-20 -right-20 w-40 h-40 bg-blue-500/5 rounded-full blur-2xl animate-float"></div>
