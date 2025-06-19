@@ -26,7 +26,7 @@ export default function Footer() {
           </div>
           
           <div className="flex flex-col items-center w-full">
-            <span className="mb-4 text-white/80 text-sm">For any updates or requests, contact us on WhatsApp.</span>
+            <span className="mb-4 text-white/80 text-sm">For any updates or requests,Please contact us on WhatsApp.</span>
             <div className="flex flex-col sm:flex-row items-center sm:space-x-8 space-y-4 sm:space-y-0 w-full animate-slide-up" style={{ animationDelay: '0.2s' }}>
               <a
                 href="https://instagram.com/techy.aravind"
