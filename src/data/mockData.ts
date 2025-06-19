@@ -54,6 +54,24 @@ export const subjects: Subject[] = [
     presentationCount: 4,
     description: 'Business Economics and Financial Analysis',
     subjectCode: '9ZC01'
+  },
+  {
+    id: 'data-structures-algorithms',
+    name: 'Design Analysis and Algorithms',
+    icon: 'Network',
+    color: 'from-indigo-500 to-indigo-600',
+    presentationCount: 3,
+    description: 'Design Analysis and Algorithms (DAA)',
+    subjectCode: '9FC05'
+  },
+  {
+    id: 'introduction-data-science',
+    name: 'Introduction to Data Science',
+    icon: 'Shield',
+    color: 'from-teal-500 to-teal-600',
+    presentationCount: 3,
+    description: 'Introduction to Data Science (IDS)',
+    subjectCode: '9EC16'
   }
 ];
 
@@ -277,5 +295,71 @@ export const presentations: Presentation[] = [
     fileSize: '370KB',
     description: 'BEFA Unit 5 Problems with Solutions',
     fileName: 'BEFA- Unit - 5 Problems with Solutions.pdf'
+  },
+  {
+    id: '21',
+    title: 'DAA Unit 1',
+    subject: 'data-structures-algorithms',
+    subjectCode: '9FC05',
+    uploadedBy: 'Aravind Pulluri',
+    uploadDate: '18-06-2025',
+    fileSize: '1.7 MB',
+    description: 'Introduction to Design Analysis and Algorithm Concepts',
+    fileName: 'DAA-Unit-I.ppt'
+  },
+  {
+    id: '22',
+    title: 'DAA Unit 2',
+    subject: 'data-structures-algorithms',
+    subjectCode: '9FC05',
+    uploadedBy: 'Aravind Pulluri',
+    uploadDate: '18-06-2025',
+    fileSize: '1.3 MB',
+    description: 'Algorithm Design Techniques and Analysis Methods',
+    fileName: 'DAA-Unit-II.ppt'
+  },
+  {
+    id: '23',
+    title: 'DAA Unit 3',
+    subject: 'data-structures-algorithms',
+    subjectCode: '9FC05',
+    uploadedBy: 'Aravind Pulluri',
+    uploadDate: '18-06-2025',
+    fileSize: '1.1 MB',
+    description: 'Advanced Algorithm Analysis and Complexity Theory',
+    fileName: 'DAA-Unit-III.ppt'
+  },
+  {
+    id: '24',
+    title: 'IDS Unit 1',
+    subject: 'introduction-data-science',
+    subjectCode: '9EC16',
+    uploadedBy: 'Aravind Pulluri',
+    uploadDate: '18-06-2025',
+    fileSize: '1.1 MB',
+    description: 'Introduction to Data Science Concepts and Fundamentals',
+    fileName: 'IDS Unit 1.pptx'
+  },
+  {
+    id: '25',
+    title: 'IDS Unit 2',
+    subject: 'introduction-data-science',
+    subjectCode: '9EC16',
+    uploadedBy: 'Aravind Pulluri',
+    uploadDate: '18-06-2025',
+    fileSize: '2.0 MB',
+    description: 'Data Analysis Techniques and Visualization Methods',
+    fileName: 'IDS Unit 2.pptx'
+  },
+  {
+    id: '26',
+    title: 'IDS Unit 3',
+    subject: 'introduction-data-science',
+    subjectCode: '9EC16',
+    uploadedBy: 'Aravind Pulluri',
+    uploadDate: '18-06-2025',
+    fileSize: '1.6 MB',
+    description: 'Introduction to Machine Learning and Predictive Analytics',
+    fileName: 'IDS Unit 3.pptx'
   }
 ];
