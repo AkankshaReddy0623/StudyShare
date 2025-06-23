@@ -368,7 +368,7 @@ export const presentations: Presentation[] = [
     subject: 'introduction-data-science',
     subjectCode: '9EC16',
     uploadedBy: 'Aravind Pulluri',
-    uploadDate: '18-06-2025',
+    uploadDate: '23-06-2025',
     fileSize: '1.8 MB',
     description: 'Advanced Data Science Topics and Applications',
     fileName: 'unit 4 IDS.pptx'
@@ -379,7 +379,7 @@ export const presentations: Presentation[] = [
     subject: 'introduction-data-science',
     subjectCode: '9EC16',
     uploadedBy: 'Aravind Pulluri',
-    uploadDate: '18-06-2025',
+    uploadDate: '23-06-2025',
     fileSize: '2.1 MB',
     description: 'Data Science Project Case Studies and Real-World Examples',
     fileName: 'Unit 5 IDS.pptx'
@@ -390,7 +390,7 @@ export const presentations: Presentation[] = [
     subject: 'introduction-data-science',
     subjectCode: '9EC16',
     uploadedBy: 'Aravind Pulluri',
-    uploadDate: '18-06-2025',
+    uploadDate: '23-06-2025',
     fileSize: '1.9 MB',
     description: 'Recent Trends and Future Directions in Data Science',
     fileName: 'UNIT 6 IDS.ppt'
