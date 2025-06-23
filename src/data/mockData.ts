@@ -361,5 +361,38 @@ export const presentations: Presentation[] = [
     fileSize: '1.6 MB',
     description: 'Introduction to Machine Learning and Predictive Analytics',
     fileName: 'IDS Unit 3.pptx'
+  },
+  {
+    id: '27',
+    title: 'IDS Unit 4',
+    subject: 'introduction-data-science',
+    subjectCode: '9EC16',
+    uploadedBy: 'Aravind Pulluri',
+    uploadDate: '18-06-2025',
+    fileSize: '1.8 MB',
+    description: 'Advanced Data Science Topics and Applications',
+    fileName: 'unit 4 IDS.pptx'
+  },
+  {
+    id: '28',
+    title: 'IDS Unit 5',
+    subject: 'introduction-data-science',
+    subjectCode: '9EC16',
+    uploadedBy: 'Aravind Pulluri',
+    uploadDate: '18-06-2025',
+    fileSize: '2.1 MB',
+    description: 'Data Science Project Case Studies and Real-World Examples',
+    fileName: 'Unit 5 IDS.pptx'
+  },
+  {
+    id: '29',
+    title: 'IDS Unit 6',
+    subject: 'introduction-data-science',
+    subjectCode: '9EC16',
+    uploadedBy: 'Aravind Pulluri',
+    uploadDate: '18-06-2025',
+    fileSize: '1.9 MB',
+    description: 'Recent Trends and Future Directions in Data Science',
+    fileName: 'UNIT 6 IDS.ppt'
   }
 ];
