@@ -60,14 +60,14 @@ export const subjects: Subject[] = [
     name: 'Design Analysis and Algorithms',
     icon: 'Network',
     color: 'from-indigo-500 to-indigo-600',
-    presentationCount: 3,
+    presentationCount: 6,
     description: 'Design Analysis and Algorithms (DAA)',
     subjectCode: '9FC05'
   },
   {
     id: 'introduction-data-science',
     name: 'Introduction to Data Science',
-    icon: 'Shield',
+    icon: 'BarChart3',
     color: 'from-teal-500 to-teal-600',
     presentationCount: 3,
     description: 'Introduction to Data Science (IDS)',
@@ -394,5 +394,38 @@ export const presentations: Presentation[] = [
     fileSize: '1.9 MB',
     description: 'Recent Trends and Future Directions in Data Science',
     fileName: 'UNIT 6 IDS.ppt'
+  },
+  {
+    id: '30',
+    title: 'DAA Unit 4',
+    subject: 'data-structures-algorithms',
+    subjectCode: '9FC05',
+    uploadedBy: 'Aravind Pulluri',
+    uploadDate: '23-06-2025',
+    fileSize: '2.1 MB',
+    description: 'Design and Analysis of Algorithms Unit 4',
+    fileName: 'DAA UNIT-4-SS.pdf'
+  },
+  {
+    id: '31',
+    title: 'DAA Unit 5',
+    subject: 'data-structures-algorithms',
+    subjectCode: '9FC05',
+    uploadedBy: 'Aravind Pulluri',
+    uploadDate: '23-06-2025',
+    fileSize: '1.4 MB',
+    description: 'Design and Analysis of Algorithms Unit 5',
+    fileName: 'DAA UNIT-5.pdf'
+  },
+  {
+    id: '32',
+    title: 'DAA Unit 6',
+    subject: 'data-structures-algorithms',
+    subjectCode: '9FC05',
+    uploadedBy: 'Aravind Pulluri',
+    uploadDate: '23-06-2025',
+    fileSize: '3.0 MB',
+    description: 'Design and Analysis of Algorithms Unit 6',
+    fileName: 'DAA UNIT-6.pdf'
   }
 ];
