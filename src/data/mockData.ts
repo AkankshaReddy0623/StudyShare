@@ -69,7 +69,7 @@ export const subjects: Subject[] = [
     name: 'Introduction to Data Science',
     icon: 'BarChart3',
     color: 'from-teal-500 to-teal-600',
-    presentationCount: 3,
+    presentationCount: 6,
     description: 'Introduction to Data Science (IDS)',
     subjectCode: '9EC16'
   }
