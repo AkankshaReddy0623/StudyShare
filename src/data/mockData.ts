@@ -82,7 +82,7 @@ export const presentations: Presentation[] = [
     subject: 'computer-organization',
     subjectCode: '9CC56',
     uploadedBy: 'Aravind Pulluri',
-    uploadDate: '18-06-2025',
+    uploadDate: '2025-06-18',
     fileSize: '172 KB',
     description: 'Computer Organization Unit 1',
     fileName: 'UNIT-1 CO - Copy.pptx'
@@ -93,7 +93,7 @@ export const presentations: Presentation[] = [
     subject: 'computer-organization',
     subjectCode: '9CC56',
     uploadedBy: 'Aravind Pulluri',
-    uploadDate: '18-06-2025',
+    uploadDate: '2025-06-18',
     fileSize: '246 KB',
     description: 'Computer Organization Unit 2',
     fileName: 'UNIT-2 CO - Copy.pptx'
@@ -104,7 +104,7 @@ export const presentations: Presentation[] = [
     subject: 'computer-organization',
     subjectCode: '9CC56',
     uploadedBy: 'Aravind Pulluri',
-    uploadDate: '18-06-2025',
+    uploadDate: '2025-06-18',
     fileSize: '7.4 MB',
     description: 'Computer Organization Unit 3',
     fileName: 'UNIT-3 CO - Copy.ppt'
@@ -115,7 +115,7 @@ export const presentations: Presentation[] = [
     subject: 'database-management',
     subjectCode: '9FC04',
     uploadedBy: 'Aravind Pulluri',
-    uploadDate: '18-06-2025',
+    uploadDate: '2025-06-18',
     fileSize: '1.0 MB',
     description: 'Database Management Systems Unit 4',
     fileName: 'Unit-IV DBMS.ppt'
@@ -126,7 +126,7 @@ export const presentations: Presentation[] = [
     subject: 'database-management',
     subjectCode: '9FC04',
     uploadedBy: 'Aravind Pulluri',
-    uploadDate: '18-06-2025',
+    uploadDate: '2025-06-18',
     fileSize: '935 KB',
     description: 'Database Management Systems Unit 5',
     fileName: 'Unit-V DBMS.ppt'
@@ -137,7 +137,7 @@ export const presentations: Presentation[] = [
     subject: 'database-management',
     subjectCode: '9FC04',
     uploadedBy: 'Aravind Pulluri',
-    uploadDate: '18-06-2025',
+    uploadDate: '2025-06-18',
     fileSize: '867 KB',
     description: 'Database Management Systems Unit 6',
     fileName: 'Unit-VI DBMS.ppt'
@@ -148,7 +148,7 @@ export const presentations: Presentation[] = [
     subject: 'database-management',
     subjectCode: '9FC04',
     uploadedBy: 'Aravind Pulluri',
-    uploadDate: '18-06-2025',
+    uploadDate: '2025-06-18',
     fileSize: '2.5 MB',
     description: 'PLSQL in Database Management Systems',
     fileName: 'plsql dbms.pptx'
@@ -159,7 +159,7 @@ export const presentations: Presentation[] = [
     subject: 'qualitative-analysis',
     subjectCode: '9HC16',
     uploadedBy: 'Aravind Pulluri',
-    uploadDate: '18-06-2025',
+    uploadDate: '2025-06-18',
     fileSize: '27MB',
     description: 'Qualitative Analysis Unit 4',
     fileName: 'Unit4 QALR.pptx'
@@ -170,7 +170,7 @@ export const presentations: Presentation[] = [
     subject: 'qualitative-analysis',
     subjectCode: '9HC16',
     uploadedBy: 'Aravind Pulluri',
-    uploadDate: '18-06-2025',
+    uploadDate: '2025-06-18',
     fileSize: '20MB',
     description: 'Qualitative Analysis Unit 5',
     fileName: 'QALR Unit5 pptx.pptx'
@@ -181,7 +181,7 @@ export const presentations: Presentation[] = [
     subject: 'qualitative-analysis',
     subjectCode: '9HC16',
     uploadedBy: 'Aravind Pulluri',
-    uploadDate: '18-06-2025',
+    uploadDate: '2025-06-18',
     fileSize: '18MB',
     description: 'Qualitative Analysis Unit 6',
     fileName: 'QALR UNIT - 6 .pptx'
@@ -192,7 +192,7 @@ export const presentations: Presentation[] = [
     subject: 'computer-organization-microprocessors',
     subjectCode: '9CC54',
     uploadedBy: 'Aravind Pulluri',
-    uploadDate: '18-06-2025',
+    uploadDate: '2025-06-18',
     fileSize: '4.0 MB',
     description: 'Computer Organization and Microprocessors Unit 3',
     fileName: 'Unit-3 co&mpi.ppt'
@@ -203,7 +203,7 @@ export const presentations: Presentation[] = [
     subject: 'computer-organization-microprocessors',
     subjectCode: '9CC54',
     uploadedBy: 'Aravind Pulluri',
-    uploadDate: '18-06-2025',
+    uploadDate: '2025-06-18',
     fileSize: '3.5 MB',
     description: 'Computer Organization and Microprocessors Unit 1',
     fileName: 'Unit-1 co&mpi.ppt'
@@ -214,7 +214,7 @@ export const presentations: Presentation[] = [
     subject: 'computer-organization-microprocessors',
     subjectCode: '9CC54',
     uploadedBy: 'Aravind Pulluri',
-    uploadDate: '18-06-2025',
+    uploadDate: '2025-06-18',
     fileSize: '3.8 MB',
     description: 'Computer Organization and Microprocessors Unit 2',
     fileName: 'Unit-2 co&mpi.ppt'
@@ -225,7 +225,7 @@ export const presentations: Presentation[] = [
     subject: 'python-programming',
     subjectCode: '9FC02',
     uploadedBy: 'Aravind Pulluri',
-    uploadDate: '18-06-2025',
+    uploadDate: '2025-06-18',
     fileSize: '1.5 MB',
     description: 'Python Programming Unit 4',
     fileName: 'Python UNIT-IV.pptx'
@@ -236,7 +236,7 @@ export const presentations: Presentation[] = [
     subject: 'python-programming',
     subjectCode: '9FC02',
     uploadedBy: 'Aravind Pulluri',
-    uploadDate: '18-06-2025',
+    uploadDate: '2025-06-18',
     fileSize: '1.3 MB',
     description: 'Python Programming Unit 5',
     fileName: 'Python UNIT-V.pptx'
@@ -247,7 +247,7 @@ export const presentations: Presentation[] = [
     subject: 'python-programming',
     subjectCode: '9FC02',
     uploadedBy: 'Aravind Pulluri',
-    uploadDate: '18-06-2025',
+    uploadDate: '2025-06-18',
     fileSize: '1.6 MB',
     description: 'Python Programming Unit 6',
     fileName: 'Python UNIT-VI.pptx'
@@ -258,7 +258,7 @@ export const presentations: Presentation[] = [
     subject: 'business-economics-financial-analysis',
     subjectCode: '9ZC01',
     uploadedBy: 'Aravind Pulluri',
-    uploadDate: '18-06-2025',
+    uploadDate: '2025-06-18',
     fileSize: '281KB',
     description: 'Business Economics and Financial Analysis Unit 4',
     fileName: 'UNIT IV BEFA.pdf'
@@ -269,7 +269,7 @@ export const presentations: Presentation[] = [
     subject: 'business-economics-financial-analysis',
     subjectCode: '9ZC01',
     uploadedBy: 'Aravind Pulluri',
-    uploadDate: '18-06-2025',
+    uploadDate: '2025-06-18',
     fileSize: '735KB',
     description: 'Business Economics and Financial Analysis Unit 5',
     fileName: 'UNIT V BEFA.pdf'
@@ -280,7 +280,7 @@ export const presentations: Presentation[] = [
     subject: 'business-economics-financial-analysis',
     subjectCode: '9ZC01',
     uploadedBy: 'Aravind Pulluri',
-    uploadDate: '18-06-2025',
+    uploadDate: '2025-06-18',
     fileSize: '176KB',
     description: 'Business Economics and Financial Analysis Unit 6',
     fileName: 'UNIT VI BEFA.pdf'
@@ -291,7 +291,7 @@ export const presentations: Presentation[] = [
     subject: 'business-economics-financial-analysis',
     subjectCode: '9ZC01',
     uploadedBy: 'Aravind Pulluri',
-    uploadDate: '18-06-2025',
+    uploadDate: '2025-06-18',
     fileSize: '370KB',
     description: 'BEFA Unit 5 Problems with Solutions',
     fileName: 'BEFA- Unit - 5 Problems with Solutions.pdf'
@@ -302,7 +302,7 @@ export const presentations: Presentation[] = [
     subject: 'data-structures-algorithms',
     subjectCode: '9FC05',
     uploadedBy: 'Aravind Pulluri',
-    uploadDate: '18-06-2025',
+    uploadDate: '2025-06-18',
     fileSize: '1.7 MB',
     description: 'Introduction to Design Analysis and Algorithm Concepts',
     fileName: 'DAA-Unit-I.ppt'
@@ -313,7 +313,7 @@ export const presentations: Presentation[] = [
     subject: 'data-structures-algorithms',
     subjectCode: '9FC05',
     uploadedBy: 'Aravind Pulluri',
-    uploadDate: '18-06-2025',
+    uploadDate: '2025-06-18',
     fileSize: '1.3 MB',
     description: 'Algorithm Design Techniques and Analysis Methods',
     fileName: 'DAA-Unit-II.ppt'
@@ -324,7 +324,7 @@ export const presentations: Presentation[] = [
     subject: 'data-structures-algorithms',
     subjectCode: '9FC05',
     uploadedBy: 'Aravind Pulluri',
-    uploadDate: '18-06-2025',
+    uploadDate: '2025-06-18',
     fileSize: '1.1 MB',
     description: 'Advanced Algorithm Analysis and Complexity Theory',
     fileName: 'DAA-Unit-III.ppt'
@@ -335,7 +335,7 @@ export const presentations: Presentation[] = [
     subject: 'introduction-data-science',
     subjectCode: '9EC16',
     uploadedBy: 'Aravind Pulluri',
-    uploadDate: '18-06-2025',
+    uploadDate: '2025-06-18',
     fileSize: '1.1 MB',
     description: 'Introduction to Data Science Concepts and Fundamentals',
     fileName: 'IDS Unit 1.pptx'
@@ -346,7 +346,7 @@ export const presentations: Presentation[] = [
     subject: 'introduction-data-science',
     subjectCode: '9EC16',
     uploadedBy: 'Aravind Pulluri',
-    uploadDate: '18-06-2025',
+    uploadDate: '2025-06-18',
     fileSize: '2.0 MB',
     description: 'Data Analysis Techniques and Visualization Methods',
     fileName: 'IDS Unit 2.pptx'
@@ -357,7 +357,7 @@ export const presentations: Presentation[] = [
     subject: 'introduction-data-science',
     subjectCode: '9EC16',
     uploadedBy: 'Aravind Pulluri',
-    uploadDate: '18-06-2025',
+    uploadDate: '2025-06-18',
     fileSize: '1.6 MB',
     description: 'Introduction to Machine Learning and Predictive Analytics',
     fileName: 'IDS Unit 3.pptx'
@@ -368,7 +368,7 @@ export const presentations: Presentation[] = [
     subject: 'introduction-data-science',
     subjectCode: '9EC16',
     uploadedBy: 'Aravind Pulluri',
-    uploadDate: '23-06-2025',
+    uploadDate: '2025-06-23',
     fileSize: '1.8 MB',
     description: 'Advanced Data Science Topics and Applications',
     fileName: 'unit 4 IDS.pptx'
@@ -379,7 +379,7 @@ export const presentations: Presentation[] = [
     subject: 'introduction-data-science',
     subjectCode: '9EC16',
     uploadedBy: 'Aravind Pulluri',
-    uploadDate: '23-06-2025',
+    uploadDate: '2025-06-23',
     fileSize: '2.1 MB',
     description: 'Data Science Project Case Studies and Real-World Examples',
     fileName: 'Unit 5 IDS.pptx'
@@ -390,7 +390,7 @@ export const presentations: Presentation[] = [
     subject: 'introduction-data-science',
     subjectCode: '9EC16',
     uploadedBy: 'Aravind Pulluri',
-    uploadDate: '23-06-2025',
+    uploadDate: '2025-06-23',
     fileSize: '1.9 MB',
     description: 'Recent Trends and Future Directions in Data Science',
     fileName: 'UNIT 6 IDS.ppt'
@@ -401,7 +401,7 @@ export const presentations: Presentation[] = [
     subject: 'data-structures-algorithms',
     subjectCode: '9FC05',
     uploadedBy: 'Aravind Pulluri',
-    uploadDate: '23-06-2025',
+    uploadDate: '26-06-2025',
     fileSize: '2.1 MB',
     description: 'Design and Analysis of Algorithms Unit 4',
     fileName: 'DAA UNIT-4-SS.pdf'
@@ -412,7 +412,7 @@ export const presentations: Presentation[] = [
     subject: 'data-structures-algorithms',
     subjectCode: '9FC05',
     uploadedBy: 'Aravind Pulluri',
-    uploadDate: '23-06-2025',
+    uploadDate: '26-06-2025',
     fileSize: '1.4 MB',
     description: 'Design and Analysis of Algorithms Unit 5',
     fileName: 'DAA UNIT-5.pdf'
@@ -423,7 +423,7 @@ export const presentations: Presentation[] = [
     subject: 'data-structures-algorithms',
     subjectCode: '9FC05',
     uploadedBy: 'Aravind Pulluri',
-    uploadDate: '23-06-2025',
+    uploadDate: '26-06-2025',
     fileSize: '3.0 MB',
     description: 'Design and Analysis of Algorithms Unit 6',
     fileName: 'DAA UNIT-6.pdf'
