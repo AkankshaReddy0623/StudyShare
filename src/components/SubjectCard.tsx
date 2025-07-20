@@ -1,5 +1,20 @@
 import React, { useState } from 'react';
-import * as Icons from 'lucide-react';
+import {
+  Cpu,
+  Database,
+  LineChart,
+  Microscope,
+  FileText,
+  DollarSign,
+  Network,
+  BarChart3,
+  Code,
+  Calculator,
+  Atom,
+  Binary,
+  Zap,
+  Beaker
+} from 'lucide-react';
 import { Subject } from '../types';
 
 interface SubjectCardProps {
@@ -7,9 +22,31 @@ interface SubjectCardProps {
   onClick: () => void;
 }
 
+const iconMap = {
+  Cpu,
+  Database,
+  LineChart,
+  Microscope,
+  FileText,
+  DollarSign,
+  Network,
+  BarChart3,
+  Code,
+  Calculator,
+  Atom,
+  Binary,
+  Zap,
+  Beaker
+};
+
 export default function SubjectCard({ subject, onClick }: SubjectCardProps) {
   const [isHovered, setIsHovered] = useState(false);
-  const IconComponent = Icons[subject.icon as keyof typeof Icons] as React.ComponentType<any>;
+  const IconComponent = iconMap[subject.icon as keyof typeof iconMap];
+
+  if (!IconComponent) {
+    console.warn(`Icon ${subject.icon} not found`);
+    return null;
+  }
 
   return (
     <div
