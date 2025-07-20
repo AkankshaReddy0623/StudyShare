@@ -72,6 +72,60 @@ export const subjects: Subject[] = [
     presentationCount: 6,
     description: 'Introduction to Data Science (IDS)',
     subjectCode: '9EC16'
+  },
+  {
+    id: 'problem-solving-c',
+    name: 'Problem Solving using C',
+    icon: 'Code',
+    color: 'from-pink-500 to-pink-600',
+    presentationCount: 6,
+    description: 'Problem Solving using C (PSUC)',
+    subjectCode: '9FC01'
+  },
+  {
+    id: 'matrix-algebra-calculus',
+    name: 'Matrix Algebra and Calculus',
+    icon: 'Calculator',
+    color: 'from-cyan-500 to-cyan-600',
+    presentationCount: 5,
+    description: 'Matrix Algebra and Calculus (MAC)',
+    subjectCode: '9HC11'
+  },
+  {
+    id: 'engineering-physics',
+    name: 'Engineering Physics',
+    icon: 'Atom',
+    color: 'from-slate-500 to-slate-600',
+    presentationCount: 6,
+    description: 'Engineering Physics (EP)',
+    subjectCode: '9HC07'
+  },
+  {
+    id: 'data-structures',
+    name: 'Data Structures',
+    icon: 'Binary',
+    color: 'from-emerald-500 to-emerald-600',
+    presentationCount: 6,
+    description: 'Data Structures (DS)',
+    subjectCode: '9EC01'
+  },
+  {
+    id: 'basic-electrical-electronics',
+    name: 'Basic Electrical And Electronics Engineering',
+    icon: 'Zap',
+    color: 'from-amber-500 to-amber-600',
+    presentationCount: 6,
+    description: 'Basic Electrical And Electronics Engineering (BEEE)',
+    subjectCode: '9AC48'
+  },
+  {
+    id: 'engineering-chemistry',
+    name: 'Engineering Chemistry',
+    icon: 'Beaker',
+    color: 'from-lime-500 to-lime-600',
+    presentationCount: 6,
+    description: 'Engineering Chemistry (EC)',
+    subjectCode: '9HC04'
   }
 ];
 
@@ -427,5 +481,280 @@ export const presentations: Presentation[] = [
     fileSize: '3.0 MB',
     description: 'Design and Analysis of Algorithms Unit 6',
     fileName: 'DAA UNIT-6.pdf'
+  },
+  {
+    id: '33',
+    title: 'PSUC Unit 1',
+    subject: 'problem-solving-c',
+    subjectCode: '9FC01',
+    uploadedBy: 'Akanksha Reddy',
+    uploadDate: '2025-07-20',
+    fileSize: '2.1 MB',
+    description: 'Problem Solving Using C Unit 1',
+    fileName: 'PSUC UNIT - 1.pdf'
+  },
+  {
+    id: '34',
+    title: 'PSUC Unit 2',
+    subject: 'problem-solving-c',
+    subjectCode: '9FC01',
+    uploadedBy: 'Akanksha Reddy',
+    uploadDate: '2025-07-20',
+    fileSize: '1.8 MB',
+    description: 'Problem Solving Using C Unit 2',
+    fileName: 'PSUC UNIT - 2.pdf'
+  },
+  {
+    id: '35',
+    title: 'PSUC Unit 3',
+    subject: 'problem-solving-c',
+    subjectCode: '9FC01',
+    uploadedBy: 'Akanksha Reddy',
+    uploadDate: '2025-07-20',
+    fileSize: '2.3 MB',
+    description: 'Problem Solving Using C Unit 3',
+    fileName: 'PSUC UNIT - 3.pdf'
+  },
+  {
+    id: '36',
+    title: 'PSUC Unit 4',
+    subject: 'problem-solving-c',
+    subjectCode: '9FC01',
+    uploadedBy: 'Akanksha Reddy',
+    uploadDate: '2025-07-20',
+    fileSize: '1.9 MB',
+    description: 'Problem Solving Using C Unit 4',
+    fileName: 'PSUC UNIT - 4.pdf'
+  },
+  {
+    id: '37',
+    title: 'PSUC Unit 5',
+    subject: 'problem-solving-c',
+    subjectCode: '9FC01',
+    uploadedBy: 'Akanksha Reddy',
+    uploadDate: '2025-07-20',
+    fileSize: '2.0 MB',
+    description: 'Problem Solving Using C Unit 5',
+    fileName: 'PSUC UNIT - 5.pdf'
+  },
+  {
+    id: '38',
+    title: 'PSUC Unit 6',
+    subject: 'problem-solving-c',
+    subjectCode: '9FC01',
+    uploadedBy: 'Akanksha Reddy',
+    uploadDate: '2025-07-20',
+    fileSize: '2.2 MB',
+    description: 'Problem Solving Using C Unit 6',
+    fileName: 'PSUC UNIT- 6.pdf'
+  },
+  {
+    id: '39',
+    title: 'EP Unit 1',
+    subject: 'engineering-physics',
+    subjectCode: '9HC07',
+    uploadedBy: 'Akanksha Reddy',
+    uploadDate: '2025-07-20',
+    fileSize: '1.4 MB',
+    description: 'Wave nature of particles, Schroedinger equation and its application',
+    fileName: 'EP Unit-1 Wave nature of particles, Schroedinger equation and its application.pdf'
+  },
+  {
+    id: '40',
+    title: 'EP Unit 2 - Fiber Optics',
+    subject: 'engineering-physics',
+    subjectCode: '9HC07',
+    uploadedBy: 'Akanksha Reddy',
+    uploadDate: '2025-07-20',
+    fileSize: '1.0 MB',
+    description: 'Fiber Optics',
+    fileName: 'EP Unit-2 Fiber Optics-1.pdf'
+  },
+  {
+    id: '41',
+    title: 'EP Unit 2 - Lasers',
+    subject: 'engineering-physics',
+    subjectCode: '9HC07',
+    uploadedBy: 'Akanksha Reddy',
+    uploadDate: '2025-07-20',
+    fileSize: '610 KB',
+    description: 'Lasers',
+    fileName: 'EP Unit-2 Lasers.pdf'
+  },
+  {
+    id: '42',
+    title: 'EP Unit 3',
+    subject: 'engineering-physics',
+    subjectCode: '9HC07',
+    uploadedBy: 'Akanksha Reddy',
+    uploadDate: '2025-07-20',
+    fileSize: '1.1 MB',
+    description: 'Magnetic and Superconducting materials',
+    fileName: 'EP Unit-3 Magnetic and Superconducting materials.pdf'
+  },
+  {
+    id: '43',
+    title: 'EP Unit 4',
+    subject: 'engineering-physics',
+    subjectCode: '9HC07',
+    uploadedBy: 'Akanksha Reddy',
+    uploadDate: '2025-07-20',
+    fileSize: '836 KB',
+    description: 'Dielectric materials and their properties',
+    fileName: 'EP Unit-4 Dielectric materials and their properties.pdf'
+  },
+  {
+    id: '44',
+    title: 'EP Unit 5 - Semiconductors',
+    subject: 'engineering-physics',
+    subjectCode: '9HC07',
+    uploadedBy: 'Akanksha Reddy',
+    uploadDate: '2025-07-20',
+    fileSize: '1.3 MB',
+    description: 'Semiconductors',
+    fileName: 'EP Unit-5 Semiconductors.pdf'
+  },
+  {
+    id: '45',
+    title: 'EP Unit 5 - Semiconductor Devices',
+    subject: 'engineering-physics',
+    subjectCode: '9HC07',
+    uploadedBy: 'Akanksha Reddy',
+    uploadDate: '2025-07-20',
+    fileSize: '852 KB',
+    description: 'Semiconductor Devices',
+    fileName: 'EP Unit-5 Semiconductor Devices.pdf'
+  },
+  {
+    id: '46',
+    title: 'EP Unit 6',
+    subject: 'engineering-physics',
+    subjectCode: '9HC07',
+    uploadedBy: 'Akanksha Reddy',
+    uploadDate: '2025-07-20',
+    fileSize: '938 KB',
+    description: 'Nanomaterials and their fabrication',
+    fileName: 'EP Unit-6 Nanomaterials and their fabrication.pdf'
+  },
+  {
+    id: '47',
+    title: 'MAC Unit 1',
+    subject: 'matrix-algebra-calculus',
+    subjectCode: '9HC11',
+    uploadedBy: 'Akanksha Reddy',
+    uploadDate: '2025-07-20',
+    fileSize: '640 KB',
+    description: 'Matrix Algebra and Calculus Unit 1',
+    fileName: 'MAC Unit-1.ppt'
+  },
+  {
+    id: '48',
+    title: 'MAC Unit 2',
+    subject: 'matrix-algebra-calculus',
+    subjectCode: '9HC11',
+    uploadedBy: 'Akanksha Reddy',
+    uploadDate: '2025-07-20',
+    fileSize: '4.3 MB',
+    description: 'Matrix Algebra and Calculus Unit 2',
+    fileName: 'MAC Unit-2.pptx'
+  },
+  {
+    id: '49',
+    title: 'MAC Unit 4',
+    subject: 'matrix-algebra-calculus',
+    subjectCode: '9HC11',
+    uploadedBy: 'Akanksha Reddy',
+    uploadDate: '2025-07-20',
+    fileSize: '1.0 MB',
+    description: 'Matrix Algebra and Calculus Unit 4',
+    fileName: 'MAC Unit-4.pptx'
+  },
+  {
+    id: '50',
+    title: 'MAC Unit 5',
+    subject: 'matrix-algebra-calculus',
+    subjectCode: '9HC11',
+    uploadedBy: 'Akanksha Reddy',
+    uploadDate: '2025-07-20',
+    fileSize: '906 KB',
+    description: 'Matrix Algebra and Calculus Unit 5',
+    fileName: 'MAC Unit-5.ppt'
+  },
+  {
+    id: '51',
+    title: 'MAC Unit 6',
+    subject: 'matrix-algebra-calculus',
+    subjectCode: '9HC11',
+    uploadedBy: 'Akanksha Reddy',
+    uploadDate: '2025-07-20',
+    fileSize: '645 KB',
+    description: 'Matrix Algebra and Calculus Unit 6',
+    fileName: 'MAC Unit-6.pptx'
+  },
+  {
+    id: '52',
+    title: 'BEEE Unit 1',
+    subject: 'basic-electrical-electronics',
+    subjectCode: '9AC48',
+    uploadedBy: 'Akanksha Reddy',
+    uploadDate: '2025-07-20',
+    fileSize: '4.1 MB',
+    description: 'Basic Electrical and Electronics Engineering Unit 1',
+    fileName: 'BEEE Unit-1.pptx'
+  },
+  {
+    id: '53',
+    title: 'BEEE Unit 2',
+    subject: 'basic-electrical-electronics',
+    subjectCode: '9AC48',
+    uploadedBy: 'Akanksha Reddy',
+    uploadDate: '2025-07-20',
+    fileSize: '5.5 MB',
+    description: 'Basic Electrical and Electronics Engineering Unit 2',
+    fileName: 'BEEE Unit-2.pptx'
+  },
+  {
+    id: '54',
+    title: 'BEEE Unit 3',
+    subject: 'basic-electrical-electronics',
+    subjectCode: '9AC48',
+    uploadedBy: 'Akanksha Reddy',
+    uploadDate: '2025-07-20',
+    fileSize: '3.7 MB',
+    description: 'Basic Electrical and Electronics Engineering Unit 3',
+    fileName: 'BEEE Unit-3.pptx'
+  },
+  {
+    id: '55',
+    title: 'BEEE Unit 4',
+    subject: 'basic-electrical-electronics',
+    subjectCode: '9AC48',
+    uploadedBy: 'Akanksha Reddy',
+    uploadDate: '2025-07-20',
+    fileSize: '2.8 MB',
+    description: 'Basic Electrical and Electronics Engineering Unit 4',
+    fileName: 'BEEE Unit-4.pptx'
+  },
+  {
+    id: '56',
+    title: 'BEEE Unit 5',
+    subject: 'basic-electrical-electronics',
+    subjectCode: '9AC48',
+    uploadedBy: 'Akanksha Reddy',
+    uploadDate: '2025-07-20',
+    fileSize: '1.4 MB',
+    description: 'Basic Electrical and Electronics Engineering Unit 5',
+    fileName: 'BEEE Unit-5.pptx'
+  },
+  {
+    id: '57',
+    title: 'BEEE Unit 6',
+    subject: 'basic-electrical-electronics',
+    subjectCode: '9AC48',
+    uploadedBy: 'Akanksha Reddy',
+    uploadDate: '2025-07-20',
+    fileSize: '3.3 MB',
+    description: 'Basic Electrical and Electronics Engineering Unit 6',
+    fileName: 'BEEE Unit-6.pptx'
   }
 ];
