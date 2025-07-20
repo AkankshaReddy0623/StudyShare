@@ -37,7 +37,7 @@ export default function Footer() {
                 className="group flex items-center space-x-3 px-4 py-2 sm:px-6 sm:py-3 bg-gradient-to-r from-pink-500 to-rose-500 hover:from-pink-600 hover:to-rose-600 text-white rounded-xl transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-pink-500/25 shimmer-effect w-full sm:w-auto justify-center"
               >
                 <Instagram className={`h-5 w-5 transition-transform duration-300 ${hoveredSocial === 'instagram' ? 'animate-bounce' : ''}`} />
-                <span className="font-medium">Instagram</span>
+                <span className="font-medium">Techy Aravind</span>
                 <ExternalLink className="h-4 w-4 opacity-70 group-hover:opacity-100 transition-opacity duration-300" />
               </a>
               
@@ -50,7 +50,7 @@ export default function Footer() {
                 className="group flex items-center space-x-3 px-4 py-2 sm:px-6 sm:py-3 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white rounded-xl transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-blue-500/25 shimmer-effect w-full sm:w-auto justify-center"
               >
                 <Linkedin className={`h-5 w-5 transition-transform duration-300 ${hoveredSocial === 'linkedin' ? 'animate-bounce' : ''}`} />
-                <span className="font-medium">LinkedIn</span>
+                <span className="font-medium">Aravind Pulluri</span>
                 <ExternalLink className="h-4 w-4 opacity-70 group-hover:opacity-100 transition-opacity duration-300" />
               </a>
 
