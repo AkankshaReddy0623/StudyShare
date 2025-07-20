@@ -53,7 +53,7 @@ export default function SubjectCard({ subject, onClick }: SubjectCardProps) {
       onClick={onClick}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      className="group cursor-pointer bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-8 hover:bg-white/20 transition-all duration-500 transform hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/20 shimmer-effect relative overflow-hidden"
+      className="group cursor-pointer bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-8 hover:bg-white/20 transition-all duration-500 transform hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/20 shimmer-effect relative overflow-hidden h-80"
     >
       {/* Animated background gradient */}
       <div className={`absolute inset-0 bg-gradient-to-br ${subject.color} opacity-0 group-hover:opacity-10 transition-opacity duration-500 rounded-2xl`}></div>
@@ -65,7 +65,7 @@ export default function SubjectCard({ subject, onClick }: SubjectCardProps) {
         <div className={`absolute w-1.5 h-1.5 bg-white/25 rounded-full transition-all duration-1000 ${isHovered ? 'animate-float' : ''}`} style={{ top: '80%', left: '70%', animationDelay: '1s' }}></div>
       </div>
 
-      <div className="relative z-10">
+      <div className="relative z-10 h-full flex flex-col">
         <div className="flex items-center justify-between mb-6">
           <div className={`p-4 bg-gradient-to-r ${subject.color} rounded-xl group-hover:shadow-lg transition-all duration-500 transform group-hover:rotate-12 group-hover:scale-110`}>
             <IconComponent className="h-8 w-8 text-white" />
@@ -78,19 +78,21 @@ export default function SubjectCard({ subject, onClick }: SubjectCardProps) {
           </div>
         </div>
         
-        <h3 className="text-xl font-bold text-white mb-3 group-hover:text-blue-200 transition-colors duration-300">
-          {subject.name}
-        </h3>
-        
-        <p className="text-white/70 text-sm leading-relaxed mb-6 group-hover:text-white/90 transition-colors duration-300">
-          {subject.description}
-        </p>
-        
-        <div className="text-white/50 text-sm mb-6 group-hover:text-white/70 transition-colors duration-300">
-          Subject Code: {subject.subjectCode}
+        <div className="flex-1 flex flex-col">
+          <h3 className="text-xl font-bold text-white mb-3 group-hover:text-blue-200 transition-colors duration-300 line-clamp-2">
+            {subject.name}
+          </h3>
+          
+          <p className="text-white/70 text-sm leading-relaxed mb-4 group-hover:text-white/90 transition-colors duration-300 line-clamp-3 flex-1">
+            {subject.description}
+          </p>
+          
+          <div className="text-white/50 text-sm mb-4 group-hover:text-white/70 transition-colors duration-300">
+            Subject Code: {subject.subjectCode}
+          </div>
         </div>
         
-        <div className="flex items-center justify-between pt-4 border-t border-white/10 group-hover:border-white/20 transition-colors duration-300">
+        <div className="flex items-center justify-between pt-4 border-t border-white/10 group-hover:border-white/20 transition-colors duration-300 mt-auto">
           <span className="text-xs text-white/50 font-medium group-hover:text-blue-300 transition-colors duration-300">
             Click to explore →
           </span>
